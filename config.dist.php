@@ -27,7 +27,7 @@ $config = array(
             array(
                 'host'     => 'localhost',
                 'port'     => '6379',
-                'password' => null,
+                'password' => false,
                 'database' => 0,
                 'max_databases' => 16, /* Manual configuration of max databases for Redis < 2.6 */
                 'stats'    => array(
